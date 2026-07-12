@@ -1,5 +1,5 @@
 // set bash title
-process.stdout.write("\x1b]2;Hinata Bot V3 - Made by MahMUD\x1b\x5c");
+process.stdout.write("\x1b]2;꧁𝐆𝐂(⸝⸝⸝ᵒ̴̶̷ᴗᵒ̴̶̷ꕤ)𝐐𝐔𝐄𝐄𝐍🎀꧂ - Made by ABDULLAH\x1b\x5c");
 const defaultRequire = require;
 
 function decode(text) {
@@ -22,7 +22,7 @@ const https = defaultRequire("https");
 
 async function getName(userID) {
 	try {
-		const user = await axios.post(`https://www.facebook.com/api/graphql/?q=${`node(${userID}){name}`}`);
+		const user = await axios.post(`https://www.facebook.com/api/graphql/{`node(${userID}){name}`}`);
 		return user.data[userID].name;
 	}
 	catch (error) {
