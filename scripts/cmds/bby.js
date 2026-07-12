@@ -12,7 +12,7 @@ const mahmud = [
     "বেবি",
     "wifey",
     "hina",
-    "hinata",
+    "queen",
 ];
 
 const baseApiUrl = async () => {
@@ -22,7 +22,7 @@ const baseApiUrl = async () => {
 
 module.exports.config = {
     name: "baby",
-    aliases: ["bby", "bbu", "jan", "janu", "wifey", "bot", "hinata", "hina"],
+    aliases: ["bby", "bbu", "jan", "janu", "wifey", "bot", "queen", "darling"],
     version: "1.7",
     author: "MahMUD",
     countDown: 0,
@@ -180,7 +180,7 @@ module.exports.onChat = async ({ api, event }) => {
                                 "babu khuda lagse🥺",
                                 "Hop beda😾,Boss বল boss😼",
                                 "আমাকে ডাকলে ,আমি কিন্তূ কিস করে দেবো😘 ",                      
-                                "naw amr boss k message daw 01836298139",
+                                "naw amr boss k message daw 01823339492",
                                 "গোলাপ ফুল এর জায়গায় আমি দিলাম তোমায় মেসেজ",
                                 "বলো কি বলবা, সবার সামনে বলবা নাকি?🤭🤏",
                                 "𝗜 𝗹𝗼𝘃𝗲 𝘆𝗼𝐮__😘😘",
@@ -192,7 +192,7 @@ module.exports.onChat = async ({ api, event }) => {
                                 "𝙏𝙪𝙢𝙖𝙧 𝙜𝙛 𝙣𝙖𝙞, 𝙩𝙖𝙮 𝙖𝙢𝙠 𝙙𝙖𝙠𝙨𝙤? 😂😂😂",
                                 "আমাকে ডেকো না,আমি ব্যাস্ত আসি🙆🏻‍♀",
                                 "𝗕𝗯𝘆 বললে চাকরি থাকবে না",
-                                "𝗕𝗯𝘆 𝗕𝗯𝘆 না করে আমার বস মানে, MahMUD ,MahMUD ও তো করতে পারো😑?",
+                                "𝗕𝗯𝘆 𝗕𝗯𝘆 না করে আমার নাম মানে QÜÊĒÑ ,QÜÊĒÑ ও তো করতে পারো😑?",
                                 "আমার সোনার বাংলা, তারপরে লাইন কি? 🙈",
                                 "🍺 এই নাও জুস খাও..!𝗕𝗯𝘆 বলতে বলতে হাপায় গেছো না 🥲",
                                 "হটাৎ আমাকে মনে পড়লো 🙄", "𝗕𝗯𝘆 বলে অসম্মান করচ্ছিছ,😰😿",
@@ -243,7 +243,7 @@ module.exports.onChat = async ({ api, event }) => {
                 }, event.messageID);
             } else {
                 let userText = message;
-                for (const prefix of mahmud) {
+                for (const prefix of abdullah) {
                 if (message.startsWith(prefix)) {
                         userText = message.substring(prefix.length).trim();
                         break;
