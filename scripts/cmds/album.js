@@ -28,21 +28,21 @@ module.exports = {
         langs: {
                 bn: {
                         noInput: "× বেবি, একটি ক্যাটাগরি দাও অথবা ভিডিওতে রিপ্লাই দাও",
-                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact MahMUD।\n•WhatsApp: 01836298139",
+                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact ÃBDÜLLÄH।\n•WhatsApp: 01823339492",
                         invalidPage: "× ভুল পৃষ্ঠা! সর্বোচ্চ পৃষ্ঠা: %1",
                         header: "𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐀𝐥𝐛𝐮𝐦 𝐕𝐢𝐝𝐞𝐨",
                         footer: "\n♻ | পৃষ্ঠা [%1/%2]<😘\nℹ | টাইপ করুন !%3 %4 - পরবর্তী পৃষ্ঠা দেখতে।"
                 },
                 en: {
                         noInput: "× Baby, please specify a category or reply to a video",
-                        error: "× API error: %1. Contact MahMUD for help.\n•WhatsApp: 01836298139",
+                        error: "× API error: %1. Contact ÃBDÜLLÄH for help.\n•WhatsApp: 01823339492",
                         invalidPage: "× Invalid page! Max page: %1",
                         header: "𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐀𝐥𝐛𝐮𝐦 𝐕𝐢𝐝𝐞𝐨",
                         footer: "\n♻ | 𝐏𝐚𝐠𝐞 [%1/%2]<😘\nℹ | 𝐓𝐲𝐩𝐞 !%3 %4 - 𝐭𝐨 𝐬𝐞𝐞 𝐧𝐞𝐱𝐭 𝐩𝐚𝐠𝐞."
                 },
                 vi: {
                         noInput: "× Cưng ơi, vui lòng chỉ định danh mục hoặc phản hồi video",
-                        error: "× Lỗi: %1. Liên hệ MahMUD để hỗ trợ.",
+                        error: "× Lỗi: %1. Liên hệ ÃBDÜLLÄH để hỗ trợ.",
                         invalidPage: "× Trang không hợp lệ! Trang tối đa: %1",
                         header: "𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐀𝐥𝐛𝐮𝐦 𝐕𝐢𝐝𝐞𝐨",
                         footer: "\n♻ | Trang [%1/%2]<😘\nℹ | Nhập !%3 %4 - để xem trang tiếp theo."
@@ -60,20 +60,20 @@ module.exports = {
                                 if (!args[1] || event.type !== "message_reply" || !event.messageReply.attachments.length) return message.reply(getLang("noInput"));
                                 api.setMessageReaction("⏳", event.messageID, () => {}, true);
                                 const imgurRes = await axios.get(`${apiBase.replace(/\/$/, "")}/imgur?url=${encodeURIComponent(event.messageReply.attachments[0].url)}`);
-                                const res = await axios.post(`${apiBase}/api/album2/mahmud/add`, { category: args[1].toLowerCase(), videoUrl: imgurRes.data.link });
+                                const res = await axios.post(`${apiBase}/api/album2/abdullah/add`, { category: args[1].toLowerCase(), videoUrl: imgurRes.data.link });
                                 api.setMessageReaction("🪽", event.messageID, () => {}, true);
                                 return message.reply(res.data.message);
                         }
 
                         if (args[0] === "list") {
                                 api.setMessageReaction("⏳", event.messageID, () => {}, true);
-                                const res = await axios.get(`${apiBase}/api/album2/mahmud/list`);
+                                const res = await axios.get(`${apiBase}/api/album2/abdullah/list`);
                                 api.setMessageReaction("🪽", event.messageID, () => {}, true);
                                 return message.reply(res.data.message);
                         }
 
                         api.setMessageReaction("⏳", event.messageID, () => {}, true);
-                        const configRes = await axios.get(`${apiBase}/api/album2/mahmud/display`);
+                        const configRes = await axios.get(`${apiBase}/api/album2/abdulla/display`);
                         const { displayNames, realCategories, captions } = configRes.data;
                         const page = parseInt(args[0]) || 1, itemsPerPage = 10, totalPages = Math.ceil(displayNames.length / itemsPerPage);
 
@@ -104,7 +104,7 @@ module.exports = {
                 try {
                         api.setMessageReaction("⏳", event.messageID, () => {}, true);
                         const apiBase = await mahmud();
-                        const response = await axios.get(`${apiBase}/api/album2/mahmud/videos/${category}?userID=${event.senderID}`);
+                        const response = await axios.get(`${apiBase}/api/album2/abdulla/videos/${category}?userID=${event.senderID}`);
                         const randomVideoUrl = response.data.videos[Math.floor(Math.random() * response.data.videos.length)];
                         const filePath = path.join(__dirname, `cache/album_${Date.now()}.mp4`);
 
