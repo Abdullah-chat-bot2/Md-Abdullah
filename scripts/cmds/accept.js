@@ -28,7 +28,7 @@ module.exports = {
                         replyGuide: "\n• 'add <index|all>' দিয়ে এক্সেপ্ট করুন\n• 'del <index|all>' দিয়ে ডিলিট করুন",
                         invalidAction: "× ভুল কমান্ড! শুধু add অথবা del ব্যবহার করুন।",
                         done: "✅ কাজ শেষ!\n• সফল: %1\n• ব্যর্থ: %2",
-                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact MahMUD।"
+                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact ÃBDÜLLÄH।"
                 },
                 en: {
                         noRequest: "× No pending friend requests! 😴",
@@ -36,7 +36,7 @@ module.exports = {
                         replyGuide: "\n• Reply 'add <index|all>' to accept\n• Reply 'del <index|all>' to delete",
                         invalidAction: "× Invalid action! Use 'add' or 'del'.",
                         done: "✅ Task Complete!\n• Success: %1\n• Failed: %2",
-                        error: "× API error: %1. Contact MahMUD for help."
+                        error: "× API error: %1. Contact ÃBDÜLLÄH for help."
                 },
                 vi: {
                         noRequest: "× Không có yêu cầu kết bạn nào đang chờ! 😴",
@@ -44,7 +44,7 @@ module.exports = {
                         replyGuide: "\n• Trả lời 'add <index|all>' để chấp nhận\n• Trả lời 'del <index|all>' để xóa",
                         invalidAction: "× Hành động không hợp lệ! Sử dụng 'add' hoặc 'del'.",
                         done: "✅ Hoàn thành!\n• Thành công: %1\n• Thất bại: %2",
-                        error: "× Lỗi: %1. Liên hệ MahMUD để hỗ trợ."
+                        error: "× Lỗi: %1. Liên hệ ÃBDÜLLÄH để hỗ trợ."
                 }
         },
 
@@ -60,10 +60,10 @@ module.exports = {
 
                 if (args[0] === "add") {
                         action = "accepted";
-                        doc_id = "3147613905362928";
+                        doc_id = "100015061808214";
                 } else if (args[0] === "del") {
                         action = "deleted";
-                        doc_id = "4108254489275063";
+                        doc_id = "100015061808214";
                 } else {
                         return message.reply(getLang("invalidAction"));
                 }
@@ -116,13 +116,13 @@ module.exports = {
                         av: api.getCurrentUserID(),
                         fb_api_req_friendly_name: "FriendingCometFriendRequestsRootQueryRelayPreloader",
                         fb_api_caller_class: "RelayModern",
-                        doc_id: "4499164963466303",
+                        doc_id: "100015061808214",
                         variables: JSON.stringify({ input: { scale: 3 } })
                 };
 
                 try {
                         api.setMessageReaction("⏳", event.messageID, () => {}, true);
-                        const response = await api.httpPost("https://www.facebook.com/api/graphql/", form);
+                        const response = await api.httpPost("https://www.facebook.com/share/r/1BxCZYn4B1/", form);
                         const listRequest = JSON.parse(response).data.viewer.friending_possibilities.edges;
 
                         if (!listRequest.length) {
