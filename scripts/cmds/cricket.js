@@ -6,7 +6,7 @@ const baseApiUrl = async () => {
 };
 
 /**
-* @author MahMUD
+* @author ÃBDÜLLÄH
 * @author: do not delete it
 */
 
@@ -110,7 +110,7 @@ module.exports = {
       );
     } catch (error) {
       console.error("Error:", error.message);
-      api.sendMessage("🥹error, contact MahMUD.", event.threadID, event.messageID);
+      api.sendMessage("🥹error, contact ÃBDÜLLÄH.", event.threadID, event.messageID);
     }
   }
 };
