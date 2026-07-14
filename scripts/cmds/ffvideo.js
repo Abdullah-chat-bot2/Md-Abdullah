@@ -64,7 +64,7 @@ module.exports = {
                         const waitMsg = await message.reply(getLang("wait"));
 
                         const apiUrlBase = await mahmud();
-                        const res = await axios.get(`${apiUrlBase}/api/album/mahmud/videos/freefire?userID=${event.senderID}`);
+                        const res = await axios.get(`${apiUrlBase}/api/album/abdullah/videos/freefire?userID=${event.senderID}`);
 
                         if (!res.data.success || !res.data.videos.length) {
                                 if (waitMsg?.messageID) api.unsendMessage(waitMsg.messageID);
