@@ -33,10 +33,10 @@ module.exports = {
                                  `•${youtubeLink}\n\n` +
                                  `#Updated\n` +
                                  `• Extreme performance\n` +
-                                 `• Now using mahmud-fca log out issue solved\n` +
+                                 `• Now using abdullah-fca log out issue solved\n` +
                                  `• Id suspended Issue almost fix and run long time.\n` +
                                  `• added new more premium command\n\n` +
-                                 `Note: If you want to use mahmud-fca please install mahmud-fca@latest`;
+                                 `Note: If you want to use abdullah please install abdullah-fca@latest`;
 
                 return api.sendMessage(response, event.threadID, event.messageID);
         }
