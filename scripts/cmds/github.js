@@ -27,8 +27,8 @@ module.exports = {
 
         langs: {
                 bn: {
-                        noInput: "× বেবি, একটি গিটহাব ইউজারনেম তো দাও!\n\nউদাহরণ: {pn} Mahmudx7",
-                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact MahMUD|\n•WhatsApp: 01836298139",
+                        noInput: "× বেবি, একটি গিটহাব ইউজারনেম তো দাও!\n\nউদাহরণ: {pn} abdullah95sl",
+                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact ÃBDÜLLÄH|\n•WhatsApp: 01823339492",
                         info: `>🎀 ইউজার গিটহাব তথ্য
 • নাম: %1
 • ইউজারনেম: %2
@@ -64,8 +64,8 @@ module.exports = {
 • লাস্ট প্রোফাইল আপডেট: %23`
                 },
                 en: {
-                        noInput: "× Baby, please provide a GitHub username!\n\nExample: {pn} Mahmudx7",
-                        error: "× API error: %1. Contact MahMUD for help.\n•WhatsApp: 01836298139",
+                        noInput: "× Baby, please provide a GitHub username!\n\nExample: {pn} abdullah95sl",
+                        error: "× API error: %1. Contact ÃBDÜLLÄH for help.\n•WhatsApp: 01823339492",
                         info: `>🎀 USER GITHUB INFO
 • Name: %1
 • Username: %2
@@ -101,8 +101,8 @@ module.exports = {
 • Last Profile Update: %23`
                 },
                 vi: {
-                        noInput: "× Cưng ơi, vui lòng cung cấp tên người dùng GitHub!\n\nVí dụ: {pn} Mahmudx7",
-                        error: "× Lỗi: %1. Liên hệ MahMUD để hỗ trợ.\n•WhatsApp: 01836298139",
+                        noInput: "× Cưng ơi, vui lòng cung cấp tên người dùng GitHub!\n\nVí dụ: {pn} abdullah95sl",
+                        error: "× Lỗi: %1. Liên hệ ÃBDÜLLÄH để hỗ trợ.\n•WhatsApp: 01823339492",
                         info: `>🎀 THÔNG TIN GITHUB
 • Tên: %1
 • Tên người dùng: %2
