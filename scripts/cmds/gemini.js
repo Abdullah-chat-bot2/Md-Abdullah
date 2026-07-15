@@ -24,17 +24,17 @@ module.exports = {
                 bn: {
                         noPrompt: "⚠️ বেবি, কিছু তো জিজ্ঞাসা করো! উদাহরণ: {pn} তুমি কে?",
                         noResponse: "× এআই থেকে কোনো উত্তর পাওয়া যায়নি।",
-                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact MahMUD।\n•WhatsApp: 01836298139"
+                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact ÃBDÜLLÄH।\n•WhatsApp: 01823339492"
                 },
                 en: {
                         noPrompt: "⚠️ Baby, please provide a question! Example: {pn} Who are you?",
                         noResponse: "× No response received from AI.",
-                        error: "× API error: %1. Contact MahMUD for help.\n•WhatsApp: 01836298139"
+                        error: "× API error: %1. Contact ÃBDÜLLÄH for help.\n•WhatsApp: 01823339492"
                 },
                 vi: {
                         noPrompt: "⚠️ Cưng ơi, vui lòng nhập câu hỏi! Ví dụ: {pn} Bạn là ai?",
                         noResponse: "× Không nhận được phản hồi từ AI.",
-                        error: "× Lỗi API: %1. Liên hệ MahMUD để được trợ giúp.\n•WhatsApp: 01836298139"
+                        error: "× Lỗi API: %1. Liên hệ ÃBDÜLLÄH để được trợ giúp.\n•WhatsApp: 01823339492"
                 }
         },
 
@@ -72,7 +72,7 @@ async function handleGemini(api, event, requestBody, commandName, getLang) {
                 const response = await axios.post(`${baseUrl}/api/gemini`, requestBody, {
                         headers: { 
                                 "Content-Type": "application/json",
-                                "author": "MahMUD"
+                                "author": "ÃBDÜLLÄH"
                         }
                 });
 
