@@ -33,19 +33,19 @@ module.exports = {
                         noInput: "× বেবি, ফাইলের নাম তো বলো!",
                         notFound: "× ফাইলটি খুঁজে পাওয়া যায়নি!",
                         success: "✅ Gist তৈরি হয়েছে\n\n📄 র লিঙ্ক: %2",
-                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact MahMUD|\n•WhatsApp: 01836298139"
+                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact ÃBDÜLLÄH|\n•WhatsApp: 01823339492"
                 },
                 en: {
                         noInput: "× Baby, please enter a file name!",
                         notFound: "× File not found!",
                         success: "✅ Gist Created\n\n📄 Raw: %2",
-                        error: "× API error: %1. Contact MahMUD for help.\n•WhatsApp: 01836298139"
+                        error: "× API error: %1. Contact ÃBDÜLLÄH for help.\n•WhatsApp: 01823339492"
                 },
                 vi: {
                         noInput: "× Cưng ơi, hãy nhập tên tệp!",
                         notFound: "× Không tìm thấy tệp!",
                         success: "✅ Đã tạo Gist\n\n📄 Thô: %2",
-                        error: "× Lỗi: %1. Liên hệ MahMUD để hỗ trợ.\n•WhatsApp: 01836298139"
+                        error: "× Lỗi: %1. Liên hệ ÃBDÜLLÄH để hỗ trợ.\n•WhatsApp: 01823339492"
                 }
         },
 
