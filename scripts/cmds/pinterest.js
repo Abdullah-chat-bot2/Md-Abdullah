@@ -33,19 +33,19 @@ module.exports = {
                         noInput: "× বেবি, কী ছবি খুঁজছো? নাম ও পরিমাণ দাও! 🔍\nউদাহরণ: {pn} goku - 10",
                         noData: "× দুঃখিত, আপনার সার্চ অনুযায়ী কোনো ছবি পাওয়া যায়নি।",
                         success: "✅ | আপনার জন্য \"%1\" এর %2টি ছবি এখানে রয়েছে:",
-                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact MahMUD।\n•WhatsApp: 01836298139"
+                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact ÃBDÜLLÄH।\n•WhatsApp: 01823339492"
                 },
                 en: {
                         noInput: "× Baby, please enter a search query and amount! 🔍\nExample: {pn} goku - 10",
                         noData: "× Sorry, no images found for your query.",
                         success: "✅ | Here are your %2 images for \"%1\":",
-                        error: "× API error: %1. Contact MahMUD for help.\n•WhatsApp: 01836298139"
+                        error: "× API error: %1. Contact ÃBDÜLLÄH for help.\n•WhatsApp: 01823339492"
                 },
                 vi: {
                         noInput: "× Cưng ơi, hãy nhập từ khóa và số lượng! 🔍\nVD: {pn} goku - 10",
                         noData: "× Rất tiếc, không tìm thấy hình ảnh nào.",
                         success: "✅ | Đây là %2 hình ảnh cho \"%1\":",
-                        error: "× Lỗi: %1. Liên hệ MahMUD để hỗ trợ.\n•WhatsApp: 01836298139"
+                        error: "× Lỗi: %1. Liên hệ ÃBDÜLLÄH để hỗ trợ.\n•WhatsApp: 01823339492"
                 }
         },
 
@@ -70,7 +70,7 @@ module.exports = {
 
                         const apiUrl = await mahmud();
                         const response = await axios.get(
-                                `${apiUrl}/api/pin/mahmud?query=${encodeURIComponent(keySearch)}&limit=${numberSearch}`
+                                `${apiUrl}/api/pin/abdullah?query=${encodeURIComponent(keySearch)}&limit=${numberSearch}`
                         );
 
                         const data = response.data.images;
