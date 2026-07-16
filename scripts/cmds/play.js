@@ -29,17 +29,17 @@ module.exports = {
                 bn: {
                         noInput: "× বেবি, গানের নাম তো দাও! 🎵\nউদাহরণ: {pn} mood",
                         success: "✅ | এই নাও তোমার পছন্দের গান বেবি <😘\n• 𝐒𝐨𝐧𝐠: %1",
-                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact MahMUD।"
+                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact ÃBDÜLLÄH।"
                 },
                 en: {
                         noInput: "× Baby, please provide a song name! 🎵\nExample: {pn} mood",
                         success: "✅ | Here's your requested song baby <😘\n• 𝐒𝐨𝐧𝐠: %1",
-                        error: "× API error: %1. Contact MahMUD for help."
+                        error: "× API error: %1. Contact ÃBDÜLLÄH for help."
                 },
                 vi: {
                         noInput: "× Cưng ơi, vui lòng cung cấp tên bài hát! 🎵\nVí dụ: {pn} mood",
                         success: "✅ | Bài hát của cưng đây <😘\n• 𝐁𝐚̀𝐢 𝐡𝐚́𝐭: %1",
-                        error: "× Lỗi: %1. Liên hệ MahMUD để hỗ trợ."
+                        error: "× Lỗi: %1. Liên hệ ÃBDÜLLÄH để hỗ trợ."
                 }
         },
 
@@ -59,7 +59,7 @@ module.exports = {
                         api.setMessageReaction("🐤", event.messageID, () => {}, true);
 
                         const baseUrl = await mahmud();
-                        const apiUrl = `${baseUrl}/api/play?mahmud=${encodeURIComponent(query)}`;
+                        const apiUrl = `${baseUrl}/api/play?abdullah=${encodeURIComponent(query)}`;
 
                         const response = await axios({
                                 method: "GET",
