@@ -29,17 +29,17 @@ module.exports = {
                 bn: {
                         replyOnly: "× বেবি, একটি ছবিতে রিপ্লাই দাও!",
                         noText: "× ছবি থেকে কোনো টেক্সট পাওয়া যায়নি।",
-                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact MahMUD।\n•WhatsApp: 01836298139"
+                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact ÃBDÜLLÄH।\n•WhatsApp: 01823339492"
                 },
                 en: {
                         replyOnly: "× Baby, please reply to an image!",
                         noText: "× No text found in the image.",
-                        error: "× API error: %1. Contact MahMUD for help.\n•WhatsApp: 01836298139"
+                        error: "× API error: %1. Contact ÃBDÜLLÄH for help.\n•WhatsApp: 01823339492"
                 },
                 vi: {
                         replyOnly: "× Cưng ơi, vui lòng phản hồi một hình ảnh!",
                         noText: "× Không tìm thấy văn bản trong hình ảnh.",
-                        error: "× Lỗi: %1. Liên hệ MahMUD để hỗ trợ."
+                        error: "× Lỗi: %1. Liên hệ ÃBDÜLLÄH để hỗ trợ."
                 }
         },
 
@@ -66,7 +66,7 @@ module.exports = {
                         }, {
                                 headers: { 
                                         "Content-Type": "application/json",
-                                        "author": "MahMUD"
+                                        "author": "ÃBDÜLLÄH"
                                 }
                         });
 
