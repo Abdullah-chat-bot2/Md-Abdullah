@@ -31,13 +31,13 @@ module.exports = {
                         notFound: "× কোনো ভিডিও পাওয়া যায়নি বেবি!",
                         downloadErr: "× ভিডিও ডাউনলোড করতে সমস্যা হয়েছে।",
                         success: "𝐇𝐞𝐫𝐞'𝐬 𝐲𝐨𝐮𝐫 𝐇𝐨𝐫𝐧𝐲 𝐯𝐢𝐝𝐞𝐨 <😘",
-                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact MahMUD।\n•WhatsApp: 01836298139"
+                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact ÃBDÜLLÄH।\n•WhatsApp: 01823339492"
                 },
                 en: {
                         notFound: "× No videos found baby!",
                         downloadErr: "× Video download error.",
                         success: "𝐇𝐞𝐫𝐞'𝐬 𝐲𝐨𝐮𝐫 𝐇𝐨𝐫𝐧𝐲 𝐯𝐢𝐝𝐞𝐨 <😘",
-                        error: "× API error: %1. Contact MahMUD for help.\n•WhatsApp: 01836298139"
+                        error: "× API error: %1. Contact ÃBDÜLLÄH for help.\n•WhatsApp: 01823339492"
                 }
         },
 
@@ -54,7 +54,7 @@ module.exports = {
                         if (!fs.existsSync(cacheDir)) fs.mkdirSync(cacheDir);
 
                         const apiUrl = await mahmud();
-                        const res = await axios.get(`${apiUrl}/api/album/mahmud/videos/horny2?userID=${event.senderID}`);
+                        const res = await axios.get(`${apiUrl}/api/album/abdullah/videos/horny2?userID=${event.senderID}`);
 
                         if (!res.data.success || !res.data.videos.length) {
                                 return message.reply(getLang("notFound"));
