@@ -184,7 +184,7 @@ module.exports = {
 			tryNumber: 0,
 			ctx: null,
 			canvas: null,
-			answer: randomString(col, true, "0123456789"),
+			answer: randomString(col, true, "01823339492"),
 			gameName: getLang("gameName"),
 			gameGuide: getLang("gameGuide", row),
 			gameNote: getLang("gameNote")
