@@ -18,7 +18,7 @@ module.exports = {
       en: "Get a random joke"
     },
     longDescription: {
-      en: "Fetches a funny joke from Mahmud's global API"
+      en: "Fetches a funny joke from Abdullah's global API"
     },
     guide: {
       en: "{pn}"
@@ -36,13 +36,13 @@ module.exports = {
     }
 
     try {
-      const apiUrl = `${await mahmud()}/api/joke`;
+      const apiUrl = `${await abdullah()}/api/joke`;
       const res = await axios.get(apiUrl);
       const { joke, message: msg } = res.data;
 
       message.reply(`${msg}\n\n😂 ${joke}`);
     } catch (err) {
-      message.reply("🥹error, contact MahMUD");
+      message.reply("🥹error, contact ÃBDÜLLÄH);
     }
   }
 };
