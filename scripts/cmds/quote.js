@@ -15,10 +15,10 @@ module.exports = {
     role: 0,
     category: "fun",
     shortDescription: {
-      en: "Get a random Mahmud quote"
+      en: "Get a random Abdullah quote"
     },
     longDescription: {
-      en: "Fetches a deep or inspiring quote from Mahmud's global API"
+      en: "Fetches a deep or inspiring quote from Abdullah's global API"
     },
     guide: {
       en: "{pn}"
@@ -36,13 +36,13 @@ module.exports = {
     }
 
     try {
-      const apiUrl = `${await mahmud()}/api/quote`;
+      const apiUrl = `${await abdullah()}/api/quote`;
       const res = await axios.get(apiUrl);
       const { quote, message: msg } = res.data;
 
       message.reply(`${msg}\n\n ${quote}`);
     } catch (err) {
-      message.reply("🥹error, contact MahMUD.");
+      message.reply("🥹error, contact ÃBDÜLLÄH.");
     }
   }
 };
