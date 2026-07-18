@@ -23,7 +23,7 @@ module.exports = {
 
         try {
             const query = encodeURIComponent(args.join(" "));
-            const apiUrl = `${await mahmud()}/api/sing?q=${query}`;
+            const apiUrl = `${await abdullah()}/api/sing?q=${query}`;
 
             const response = await axios.get(apiUrl, {
                 responseType: "stream",
