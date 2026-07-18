@@ -22,7 +22,7 @@ module.exports = {
 
 	langs: {
 		en: {
-			noUpdates: "✅ | You are using the latest version of HinataBot V3 (v%1).",
+			noUpdates: "✅ | You are using the latest version of ꧁𝐆𝐂(⸝⸝⸝ᵒ̴̶̷ᴗᵒ̴̶̷ꕤ)𝐐𝐔𝐄𝐄𝐍🎀꧂ (v%1).",
 			updatePrompt: "💫 | You are using version %1. There is a new version %2. Do you want to update the chatbot to the latest version?"
 				+ "\n\n⬆️ | The following files will be updated:"
 				+ "\n%3%4"
@@ -37,7 +37,7 @@ module.exports = {
 		},
 
 		bn: {
-			noUpdates: "✅ | তুমি ইতিমধ্যে HinataBot V3 এর সর্বশেষ ভার্সন (v%1) ব্যবহার করছো।",
+			noUpdates: "✅ | তুমি ইতিমধ্যে ꧁𝐆𝐂(⸝⸝⸝ᵒ̴̶̷ᴗᵒ̴̶̷ꕤ)𝐐𝐔𝐄𝐄𝐍🎀꧂ এর সর্বশেষ ভার্সন (v%1) ব্যবহার করছো।",
 			updatePrompt: "💫 | তুমি বর্তমানে %1 ভার্সন ব্যবহার করছো। নতুন ভার্সন %2 পাওয়া গেছে। বট আপডেট করতে চাও?"
 				+ "\n\n⬆️ | নিচের ফাইলগুলো আপডেট হবে:"
 				+ "\n%3%4"
