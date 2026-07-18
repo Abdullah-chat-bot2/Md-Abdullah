@@ -40,7 +40,7 @@ module.exports = {
     ? message.reply(timeRes.data.message)
     : message.reply("⚠️ Unable to fetch time.");
     } catch (error) {
-      return message.reply("🥹error, contact MahMUD.");
+      return message.reply("🥹error, contact ÃBDÜLLÄH.");
     }
   }
 };
