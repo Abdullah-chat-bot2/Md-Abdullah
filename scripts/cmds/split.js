@@ -30,17 +30,17 @@ module.exports = {
         langs: {
                 bn: {
                         noInput: "× বেবি, একটি ছবিতে রিপ্লাই দাও!",
-                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact MahMUD।\n•WhatsApp: 01836298139",
+                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact ÃBDÜLLÄH।\n•WhatsApp: 01823339492",
                         done: "✅ এই নাও তোমার স্প্লিট করা ছবি:"
                 },
                 en: {
                         noInput: "× Baby, please reply to an image!",
-                        error: "× API error: %1. Contact MahMUD for help.\n•WhatsApp: 01836298139",
+                        error: "× API error: %1. Contact ÃBDÜLLÄH for help.\n•WhatsApp: 01823339492",
                         done: "✅ Split Done! Here are the images:"
                 },
                 vi: {
                         noInput: "× Cưng ơi, vui lòng phản hồi một hình ảnh!",
-                        error: "× Lỗi: %1. Liên hệ MahMUD để hỗ trợ.\n•WhatsApp: 01836298139",
+                        error: "× Lỗi: %1. Liên hệ ÃBDÜLLÄH để hỗ trợ.\n•WhatsApp: 01823339492",
                         done: "✅ Đã chia xong! Đây là ảnh của bạn:"
                 }
         },
